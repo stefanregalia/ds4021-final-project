@@ -39,6 +39,8 @@ ds4021-final-project/
 │
 ├── README.md                        # Project overview 
 │
+├── final_project.pdf                # Final report
+│
 ├── data/
 │   ├── climate_change_dataset.csv   # Original dataset
 │   ├── train_set_X.csv              # Training features
