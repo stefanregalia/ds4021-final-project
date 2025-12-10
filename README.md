@@ -1,4 +1,5 @@
 # DS 4021 Final Project: Climate Temperature Prediction
+By Teagan Britten, Alka Link, and Stefan Regalia
 
 This project applies machine learning models to predict average temperature using climate-related features. We compare penalized linear regression, support vector machines, random forests, and neural networks.
 
@@ -9,7 +10,7 @@ This repository contains all notebooks, data, and outputs for our final project 
 ## Software and Platform
 
 ### Software Used
-- **Python**: 3.9+
+- **Python**: 3.12.5
 - **Jupyter Notebooks**
 
 ### Packages
@@ -59,12 +60,9 @@ ds4021-final-project/
     ├── climate_variable_distributions.png   # Distribution plots
     ├── climate_variable_pairplot.png        # Pairplot visualization
     ├── correlation_heatmap.png              # Feature correlations
+    ├── final_test_predictions.png           # Final model test set results
     │
     └── penalizedlinreg-outputs/             # Penalized regression results
-        ├── ridge_cv_results.png
-        ├── lasso_cv_results.png
-        ├── elasticnet_cv_heatmap.png
-        ├── penalized_regression_comparison.png
         ├── best_model_coefficients.png
         └── cv_results_summary.csv
 ```
